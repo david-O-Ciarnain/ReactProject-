@@ -6,12 +6,11 @@ import Contact from "./Contact.js"
 
 export default function App(){
     return ( 
-        <>
-        
+        <div className="app-container">
         <Contact />
         <About />
         <Interests /> 
         <Footer /> 
-        </>
+        </div>
     )
 }

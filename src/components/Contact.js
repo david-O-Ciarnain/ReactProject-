@@ -12,9 +12,17 @@ export default function Contact(){
             <header className='header-container'>
                 <h3>David O Ciarnain</h3>
                 <p>Java developer student</p>
-                <div className='header-button'>
-                    <button><FontAwesomeIcon icon ={faEnvelope}></FontAwesomeIcon> Email </button>
-                    <button> <FontAwesomeIcon icon = {faLinkedin}> </FontAwesomeIcon>linkedin</button>
+                <div >
+                  <a href='mailto:david951@live.se'> 
+                   <button className='email-button'>
+                       <FontAwesomeIcon icon ={faEnvelope} className='email-icon'></FontAwesomeIcon> Email 
+                    </button>
+                  </a>
+                  <a href='https://www.linkedin.com/in/david-%C3%B3-ciarnain-b252bb217/'>
+                    <button className='linkedin-button'>
+                         <FontAwesomeIcon icon = {faLinkedin} className="linkedin-icon"> </FontAwesomeIcon>linkedin
+                    </button>
+                 </a>
                 </div>
             </header>
         </div>
