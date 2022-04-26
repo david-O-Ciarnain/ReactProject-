@@ -9,7 +9,7 @@ export default function Footer(){
 return(
     <footer className='footer-container'>
         
-        <FontAwesomeIcon icon={faGithub}className="github-icon"></FontAwesomeIcon>
+      <a href='https://github.com/david-O-Ciarnain' ><FontAwesomeIcon icon={faGithub} size="" className="github-icon"></FontAwesomeIcon></a> 
         <FontAwesomeIcon icon= {faLinkedin} className="footer-linkedin-icon"></FontAwesomeIcon>
     </footer>
 )
