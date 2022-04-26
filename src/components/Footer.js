@@ -10,7 +10,7 @@ return(
     <footer className='footer-container'>
         
       <a href='https://github.com/david-O-Ciarnain' ><FontAwesomeIcon icon={faGithub} size="" className="github-icon"></FontAwesomeIcon></a> 
-        <FontAwesomeIcon icon= {faLinkedin} className="footer-linkedin-icon"></FontAwesomeIcon>
+      <a href='https://www.linkedin.com/in/david-%C3%B3-ciarnain-b252bb217/'>  <FontAwesomeIcon icon= {faLinkedin} className="footer-linkedin-icon"></FontAwesomeIcon></a>
     </footer>
 )
 }
